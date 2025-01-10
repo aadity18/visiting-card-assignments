@@ -1,0 +1,205 @@
+*{
+    margin: 0mm;
+    padding: 0mm;
+    font-family: sans-serif;
+}
+
+center{
+    padding: 40mm;
+}
+.card-wrapper{ 
+  margin: auto;
+  left: auto;
+  top: auto;
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+}
+
+.card1-background{
+    height:110mm;
+    width: 150mm;
+	top:34mm;
+	left:28mm;
+    overflow: hidden;
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.3) 0mm 5.0270833333mm 10.054166667mm, rgba(0, 0, 0, 0.22) 0mm 3.96875mm 3.175mm;
+}
+.rect1{
+    position: relative;
+    height: 80mm;
+    width: 19mm;
+    background-color: orange;
+    left: 60mm;
+    transform: skewX(-17deg);
+}
+.rect11{
+    position: absolute;
+    height: 80mm;
+    width: 2mm;
+    top: 0mm;
+    left: 122mm;
+    background-color: orange;
+    transform: skewX(-17deg);
+}
+.rect2{
+    position: relative;
+    height: 30mm;
+    width: 22mm;
+    background-color: #086A8A;
+    top: 0mm;
+    left: 63.5mm;
+    transform: skewX(-17deg);
+}
+.rect22{
+    position: relative;
+    height: 30mm;
+    width: 2mm;
+    background-color: #086A8A;
+    z-index: 1;
+    top: -29.7mm;
+    left: 50.3mm;
+    transform: skewX(-17deg);
+}
+.card1-content{
+    position: relative;
+    font-size: 3.5mm;
+    color: grey;
+    left: 16mm;
+    top: -30mm;
+}
+.box1{
+    position: absolute;
+    width: 6mm;
+    height: 10mm;
+    background-color: orange;
+    left: 67mm;
+    top: 1mm;
+    transform: skewX(-17deg);
+}
+.box2{
+    position: absolute;
+    width: 3mm;
+    height: 10mm;
+    background-color: #086A8A;
+    left: 63mm;
+    top: 1mm;
+    transform: skewX(-17deg);
+}
+
+
+.card2-background{
+   height: 100mm;
+    width: 150mm;
+    top: -151mm;
+    left: 30mm;
+    overflow: hidden;
+    position: relative;
+    margin-top: 13mm;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.3) 0mm 5.0270833333mm 10.054166667mm, rgba(0, 0, 0, 0.22) 0mm 3.96875mm 3.175mm;
+}
+.rect3{
+    position: relative;
+    height: 50mm;
+    width: 22mm;
+    background-color: #F37625;
+    left: 62mm;
+    transform: skewX(-17deg);
+}
+.rect33{
+    position: absolute;
+    height: 55mm;
+    width: 2mm;
+    background-color: #F37625;
+    left: 123.5mm;
+    top: -5mm;
+    transform: skewX(-17deg);
+}
+.rect4{
+    position: absolute;
+    height: 50mm;
+    width: 22mm;
+    background-color: #086A8A;
+    left: 88mm;
+    transform: skewX(-17deg);
+}
+.rect44{
+    position: absolute;
+    height: 50mm;
+    width: 2mm;
+    background-color: #086A8A;
+    left: 84.8mm;
+    transform: skewX(-17deg);
+}
+.rect5{
+    position: absolute;
+    height: 50mm;
+    width: 48mm;
+    background-color: #F37625;
+    left: -19mm;
+    transform: skewX(-17deg);  
+}
+.img1{
+    position: relative;
+    width: 6mm;
+    height: 6mm;
+    left: 19mm;
+    top: 7mm;
+}
+.img2{
+    position: relative;
+    width: 6mm;
+    height: 6mm;
+    top: 18mm;
+    left: 14mm;
+    
+}
+.img3{
+    position: relative;
+    width: 6mm;
+    height: 6mm;
+    top: 29mm;
+    left: 9mm;
+}
+.img4{
+    position: relative;
+    width: 6mm;
+    height: 6mm;
+    top: 40mm;
+    left: 4mm;
+}
+.contact-details{
+    position: relative;
+    top: 6mm;
+    left: -18mm;
+}
+.contact-details p{
+    padding-top: 1.6mm;
+    font-size: 4mm;
+    color: grey;
+}
+.email{
+    position: relative;
+    left: 4mm;
+}
+.number{
+    position: relative;
+    left: 0mm;
+}
+.address{
+    position: relative;
+    left: -9mm;
+    top: 1mm;
+}
+.website{
+    position: relative;
+    left: -5mm;
+}
+.name{
+    position: relative;
+    top: -76mm;
+    font-size: 9mm;
+    left: -9mm;
+}
